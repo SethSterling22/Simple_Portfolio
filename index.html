@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!-- Página creada por: Sebastián Hernández Sterling 801 - 21 - 1038
+Curso: CCOM 4995
+Profesora: Yaira K. Rivera Sánchez -->
+<html lang="en">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>STERLING'S PORTFOLIO</title>
+	<link rel="icon" type="image/png" href="assets/logo.png">
+
+	<link href="styles.css" type="text/css" rel="stylesheet">
+	<script src="scripts.js"></script>
+</head>
+
+
+<!-- ///////////////// Contenido de la página ///////////////// -->
+<body>
+
+	<!-- Modal de imágenes	 -->
+	<div id="myModal" class="modal">
+		<span class="close" id="closeModal">&times;</span>
+		<img class="modal-content" id="img_modal">
+	</div>
+	<!-- Modal de imágenes	 -->
+
+	<!-- ///////////////// Barra de movimiento ///////////////// -->
+	<section class="title-container">
+		<div class="heads">
+			<section>
+				<h1>SEBASTIÁN STERLING'S PORTFOLIO</h1>
+				<h4>Computer Sciente Student</h4>
+				<h4>University of Puerto Rico, Rio Piedras Campus</h4>
+			</section>
+			<a href="index.html"><img src="assets/logo.png"></a>
+		</div>
+
+		<div class="heads">
+			<div class="navbar">
+				<a href="index.html">MAIN</a>
+				<a href="experience.html">EXPERIENCE</a>
+				<a href="contact.html">CONTACT</a>
+			</div>
+		</div>
+	</section><br>
+	<!-- ///////////////// Barra de movimiento ///////////////// -->
+
+
+	<!-- ///////////////// Contenido de la página principal ///////////////// -->
+	<section>
+		<div class="grid-container">
+			<div class="grid-item"><h1>ABOUT ME</h1><br>March 04, 2025</div>
+			<div class="grid-item">I was born in a small town between the Andes mountains in Colombia called «Guadalajara de Buga» and as a child I have always been interested in topics related to the area of ​​science.<br><br>I had the opportunity to participate in different robotics and astronomy clubs, which increased my curiosity and made me aware of everything I didn’t know and that remains to be discovered.<br><br>
+				Later in my teenage years, I was able to take courses in graphic design, photoshop, digital illustration, animation and photography, which helped me understand much more complex interfaces and reflect my creativity in the digital sector.<br><br>
+				In the last years of my high school I was able to be part of Future Leaders Business of America (FBLA), which focuses on developing business, accounting and marketing skills in young people. <br><br>Now at university I have found myself interested in web development, software engineering and database management, where I have had experience in the administration development process. I have also been interested in the areas of machine learning and cybersecurity, where I would like to have experience in the future.</div>
+			<div class="grid-item"><a href="https://webserver1.stegosaurus-panga.ts.net/portfolio/assets/side_img.jpg"><p style="color: #16C60C">root@Sterling</p><p>:~$ display ./side_img.jpg</p></a><br><br><img src="assets/side_img.jpg"  id="myImage" title="Side Image" style="cursor:pointer;" id="myImage" onclick="openModal(this.src)"/></div>
+		</div>
+	</section>
+	<!-- ///////////////// Contenido de la página principal ///////////////// -->
+
+
+	<br><br><br>
+	<!-- ///////////////// Footer ///////////////// -->
+	<div class="content"></div>
+	<footer>
+		<!-- Sección de formulario de e-mail -->
+		<section>
+			<label for="email">E-mail:</label><br>
+			<input  id="email" type="email" placeholder="example@example.com"/> <br>
+
+			<label >Subject:</label><br>
+			<input placeholder="Subject..."/> <br>
+
+			<label>Message:</label><br>
+			<textarea placeholder="Dear Sebastián..."> </textarea> <br>
+
+			<button onclick="handEmail()" > 
+				Send
+			</button>
+		</section>
+		<!-- Sección de formulario de e-mail -->
+
+		<div>
+			<a href="https://github.com/SethSterling22" aria-label="GitHub" style="text-decoration: none;">
+				<img src="assets/git.jpg" style="width: 38px; margin-right: 10px;" title="GitHub">
+			</a>
+			<a href="https://www.linkedin.com/in/sebastian-sterling-a13998277" aria-label="LinkedIn" style="text-decoration: none;">
+				<img src="assets/linked.png" style="width: 35px; margin-right: 10px;" title="LinkedIn">
+			</a>
+			<a href="https://www.instagram.com/official_sterling_o.o/" aria-label="Instagram" >
+				<img src="assets/insta.png" style="width: 35px;" title="Instagram">
+			</a>
+		</div>
+	</footer>
+	<!-- ///////////////// Footer ///////////////// -->
+
+</body>
+</html>

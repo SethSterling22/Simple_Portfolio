@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<!-- Página creada por: Sebastián Hernández Sterling 801 - 21 - 1038
+Curso: CCOM 4995
+Profesora: Yaira K. Rivera Sánchez -->
+<html lang="en">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>STERLING'S PORTFOLIO</title>
+	<link rel="icon" type="image/png" href="assets/logo.png">
+
+	<link href="styles.css" type="text/css" rel="stylesheet">
+	<script src="scripts.js"></script>
+</head>
+
+
+<!-- ///////////////// Contenido de la página ///////////////// -->
+<body>
+	<!-- Modal de imágenes	 -->
+	<div id="myModal" class="modal">
+		<span class="close" id="closeModal">&times;</span>
+		<img class="modal-content" id="img_modal">
+	</div>
+	<!-- Modal de imágenes	 -->
+
+	<!-- ///////////////// Barra de movimiento ///////////////// -->
+	<section class="title-container">
+		<div class="heads">
+			<section>
+				<h1>SEBASTIÁN STERLING'S PORTFOLIO</h1>
+				<h4>Computer Sciente Student</h4>
+				<h4>University of Puerto Rico, Rio Piedras Campus</h4>
+			</section>
+			<a href="index.html"><img src="assets/logo.png"></a>
+		</div>
+
+		<div class="heads">
+			<div class="navbar">
+					<a href="index.html">MAIN</a>
+					<a href="experience.html">EXPERIENCE</a>
+					<a href="contact.html">CONTACT</a>
+			</div>
+		</div>
+	</section><br>
+	<!-- ///////////////// Barra de movimiento ///////////////// -->
+
+
+	<!-- ///////////////// Contenido de la página principal ///////////////// -->
+	<section>
+		<section class="grid-container">
+			<div class="grid-item">
+				<h1>COURSES</h1>
+				<br>by March 04, 2025
+			</div>
+			<div class="grid-item"> 
+				<h3>Systems:</h3>
+				<ul>
+					<li>Compuert Architecture</li>
+					<li>Operating Systems</li>
+					<li>Data Communication</li>
+					<li>Compilers</li>
+				</ul>
+
+				<h3>Security:</h3>
+				<ul>
+					<li>Cybersecurity</li>
+					<li>Systems and Networks Security</li>
+					<li>Networks Defenses</li>
+				</ul>
+			</div>
+			<div class="grid-item">
+				<!-- <h1>CERTIFICATES</h1>
+				<img src="assets/certificados/BOFA-1.png" title="Side Image">
+				<img src="assets/certificados/business.png" title="Side Image">
+				<img src="assets/certificados/Corel.png" title="Side Image"> -->
+
+				<h3>Development:</h3>
+				<ul>
+					<li>API Design & Development</li>
+					<li>Software Engineering</li>
+					<li>Databases</li>
+				</ul>
+
+				<h3>Analysis and Programming:</h3>
+				<ul>
+					<li>Data Structures</li>
+					<li>Design and Analysis of Algorithms</li>
+					<li>High Level Languages</li>
+				</ul>
+				
+			</div>
+		</section>
+		<hr>
+
+		<!-- ///////////////// Experiencia profesional ///////////////// -->
+		<section class="grid-container">
+			<div class="grid-item">
+				<h1>Profesional Experiencie</h1>
+			</div>
+			<div class="grid-item"> 
+				Fullstack developer, System administrator, Project manager at the “Division of Continuing Education and Professional Studies” (DECEP).
+				<br><br>
+				<li>Development, Styles and Webapps Design, Cybersecurity, Database Management, Python, Django and management of Docker containers and Systems.</li><br>
+				<li>Maintain communication and distribute tasks according to team roles.</li>
+			</div>
+			<div class="grid-item">
+				2024 - present
+			</div>
+		</section>
+		<br>
+
+		<section class="grid-container">
+			<div class="grid-item"></div>
+			<div class="grid-item"> 
+				Fullstack developer at the “Center of Innovation, Research and Education in Environmental Nanotechnology” (CIRE2N).
+				<br><br>
+				<li>Develop Styles and Webapps Design, Cybersecurity, Database Management, PHP, Javascript, CSS, HTML5, LAMP configuration and Docker containers management.</li><br>
+			</div>
+			<div class="grid-item">
+				2023 - 2024
+			</div>
+		</section>
+		<br>
+
+		<section class="grid-container">
+			<div class="grid-item"></div>
+			<div class="grid-item"> 
+				Community Manager at the University of Puerto Rico Rio Piedras Campus Business Administration Library.
+				<br><br>
+				<li>Developed and executed targeted promotions and advertisements based on comprehensive analysis of social media statistics to enhance online presence.</li><br>
+			</div>
+			<div class="grid-item">
+				2022 - 2023
+			</div>
+		</section>
+		<!-- ///////////////// Experiencia profesional ///////////////// -->
+		<hr>
+
+		
+		<section class="grid-container">
+			<div class="grid-item">
+				<h1>PROJECTS</h1>
+			</div>
+			<div class="grid-item"> 
+				<img src="assets/proyectos/ipon.jpg" title="Side Image" id="myImage" onclick="openModal(this.src)" style="cursor: pointer;"/><br><br>
+				<h3>iPon - A driven mobile application</h3>
+				<br>
+				<li>Carsharing app for linking people on the same trip. It was programmed with mobile devices in mind, although its design is responsive to other devices.</li><br>
+			</div>
+			<div class="grid-item">
+				<h2>Technologies:</h2>
+				<ul>
+					<li>Django</li>
+					<li>Python</li>
+					<li>API</li>
+					<li>Javascript</li>
+					<li>MySql</li>
+				</ul>
+			</div>
+
+			<div class="grid-item">
+			</div>
+			<div class="grid-item"> 
+				<img src="assets/proyectos/api.png" title="Side Image" id="myImage" onclick="openModal(this.src)" style="cursor: pointer;"/><br><br>
+				<h3>Favorite restaurants at University project using swagger API</h3>
+				<br>
+				<li>The project is based on creating the complete API system, both the FrontEnd and the BackEnd, connecting it to a previously established database and filling it with the information itself using the EndPoints.</li><br>
+			</div>
+			<div class="grid-item">
+				<h2>Technologies:</h2>
+				<ul>
+					<li>Swagger</li>
+					<li>DotNet</li>
+					<li>C#</li>
+					<li>Angular</li>
+					<li>TypeScript</li>
+				</ul>
+			</div>
+
+			<div class="grid-item">
+			</div>
+			<div class="grid-item"> 
+				<img src="assets/proyectos/flora.jpg" title="Side Image" id="myImage" onclick="openModal(this.src)" style="cursor: pointer;"/><br><br>
+				<h3>Flora ElVerde at CATEC – UPRRP</h3>
+				<br>
+				<li>The web app consists of the visualization of the information previously obtained from the Flora ElVerde database. For this, the entire “Front End” section of the application was redesigned, as well as the “Back End” logistics, in order to carry out the task of displaying information for consumption.</li><br>
+			</div>
+			<div class="grid-item">
+				<h2>Technologies:</h2>
+				<ul>
+					<li>PHP</li>
+					<li>Apache</li>
+					<li>Docker</li>
+					<li>MariaDB</li>
+					<li>Javascript</li>
+					<li>JQuery</li>
+				</ul>
+			</div>
+
+			<div class="grid-item">
+			</div>
+			<div class="grid-item"> 
+				<img src="assets/proyectos/profes.jpg" title="Side Image" id="myImage" onclick="openModal(this.src)" style="cursor: pointer;"/><br><br>
+				<h3>Profestocks – Web Application</h3>
+				<br>
+				<li>Developed in conjunction with<a href="https://github.com/nekotletta" style="text-decoration: underline; display: inline;" target="_blank"> Adriana Hernández Vega (Main programmer)</a> and Sebastián Sterling (Secondary programmer) Our inspiration arose from the needs of the students when registering for the new semester, which professors gave the classes and how these professors behaved in class, how they really acted.</li><br>
+			</div>
+			<div class="grid-item">
+				<h2>Technologies:</h2>
+				<ul>
+					<li>PHP</li>
+					<li>Apache</li>
+					<li>Docker</li>
+					<li>MySql</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section class="center">
+			<h1>CERTIFICATES</h1><br>
+			<div class="ruleta-amazing">
+					<img src="assets/certificados/BOFA-1.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/>
+					<img src="assets/certificados/business.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/>
+					<img src="assets/certificados/Corel.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/> 
+					<img src="assets/certificados/Faculty.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/> 
+					<img src="assets/certificados/FBLA.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/> 
+					<img src="assets/certificados/Illustrator.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/> 
+					<img src="assets/certificados/Photoshop.png" title="Side Image" id="myImage" onclick="openModal(this.src)"/> 
+			</div>
+		</section>
+
+	</section>
+	<!-- ///////////////// Contenido de la página principal ///////////////// -->
+
+
+	<br><br><br>
+	<!-- ///////////////// Footer ///////////////// -->
+	<footer>
+		
+		<!-- Sección de formulario de e-mail -->
+		<section>
+			
+			<label for="email">E-mail:</label><br>
+			<input  id="email" type="email" placeholder="example@example.com"/> <br>
+
+			<label >Subject:</label><br>
+			<input placeholder="Subject..."/> <br>
+
+			<label>Message:</label><br>
+			<textarea placeholder="Dear Sebastián..."> </textarea> <br>
+
+			<button onclick="handEmail()" > 
+				Send
+			</button>
+			
+		</section>
+		<!-- Sección de formulario de e-mail -->
+
+		<div>
+			<a href="https://github.com/SethSterling22" aria-label="GitHub" style="text-decoration: none;">
+				<img src="assets/git.jpg" style="width: 38px; margin-right: 10px;" title="GitHub">
+			</a>
+			<a href="https://www.linkedin.com/in/sebastian-sterling-a13998277" aria-label="LinkedIn" style="text-decoration: none;">
+				<img src="assets/linked.png" style="width: 35px; margin-right: 10px;" title="LinkedIn">
+			</a>
+			<a href="https://www.instagram.com/official_sterling_o.o/" aria-label="Instagram" >
+				<img src="assets/insta.png" style="width: 35px;" title="Instagram">
+			</a>
+		</div>
+	</footer>
+	<!-- ///////////////// Footer ///////////////// -->
+
+</body>
+</html>
